@@ -1,0 +1,95 @@
+﻿  Source.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(571): error C2528: 'pointer': pointer to reference is illegal
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(781): note: see reference to class template instantiation 'std::allocator<_Ty>' being compiled
+          with
+          [
+              _Ty=std::string &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(444): note: see reference to class template instantiation 'std::_Wrap_alloc<std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=std::string &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(496): note: see reference to class template instantiation 'std::_Vec_base_types<_Ty,_Alloc>' being compiled
+          with
+          [
+              _Ty=std::string &,
+              _Alloc=std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(683): note: see reference to class template instantiation 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>' being compiled
+          with
+          [
+              _Ty=std::string &,
+              _Alloc=std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>
+          ]
+  d:\01-mygit\readeddocuments\11-c++sample code\rvalueexample\rvalueexample\source.cpp(9): note: see reference to class template instantiation 'std::vector<std::string &,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=std::string &
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(572): error C2528: 'const_pointer': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(595): error C2535: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &(*std::allocator<_Ty>::address(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &) noexcept const)': member function already defined or declared
+          with
+          [
+              _Ty=std::string &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(589): note: see declaration of 'std::allocator<_Ty>::address'
+          with
+          [
+              _Ty=std::string &
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(714): error C2528: 'pointer': pointer to reference is illegal
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(785): note: see reference to class template instantiation 'std::allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(715): error C2528: 'const_pointer': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(734): error C2528: '<template-parameter>': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(740): error C2528: '<template-parameter>': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(828): error C2535: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &(*std::_Wrap_alloc<std::allocator<_Ty>>::address(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &) const)': member function already defined or declared
+          with
+          [
+              _Ty=std::string &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(822): note: see declaration of 'std::_Wrap_alloc<std::allocator<_Ty>>::address'
+          with
+          [
+              _Ty=std::string &
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(174): error C2528: 'abstract declarator': pointer to reference is illegal
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(447): note: see reference to class template instantiation 'std::_Is_simple_alloc<std::_Wrap_alloc<std::allocator<_Ty>>>' being compiled
+          with
+          [
+              _Ty=std::string &
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(174): error C2528: '<template-parameter>': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(176): error C2528: 'abstract declarator': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(176): error C2528: '<template-parameter>': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(455): error C2528: '<template-parameter>': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(191): error C2528: 'pointer': pointer to reference is illegal
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(500): note: see reference to class template instantiation 'std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>' being compiled
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(192): error C2528: 'const_pointer': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(829): error C2528: '_Pval': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1278): error C2535: 'void std::vector<std::string &,std::allocator<_Ty>>::push_back(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': member function already defined or declared
+          with
+          [
+              _Ty=std::string &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(898): note: see declaration of 'std::vector<std::string &,std::allocator<_Ty>>::push_back'
+          with
+          [
+              _Ty=std::string &
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1361): error C2535: 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>>> std::vector<std::string &,std::allocator<_Ty>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>>>,_Ty)': member function already defined or declared
+          with
+          [
+              _Ty=std::string &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(921): note: see declaration of 'std::vector<std::string &,std::allocator<_Ty>>::insert'
+          with
+          [
+              _Ty=std::string &
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1618): error C2528: '_Ptr': pointer to reference is illegal
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1780): error C2528: '_Pval': pointer to reference is illegal
