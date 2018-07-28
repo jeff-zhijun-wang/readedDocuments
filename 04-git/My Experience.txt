@@ -1,0 +1,6 @@
+(1)in case ask for usename and passwd
+then 
+ $ git config --global credential.helper wincred
+it will fix the problem
+
+(2) add something to the fold, I have to open git extension first otherwise the process can not be monitored
