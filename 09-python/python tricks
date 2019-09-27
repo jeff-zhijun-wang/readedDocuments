@@ -1,0 +1,6 @@
+(1) when type python in command window, if it gives error as "python.exe" is not recognized as an internal or external command, then need to add pythonpath to windows system path
+To add the path to the python.exe file to the Path variable, 
+https://geek-university.com/python/add-python-to-the-windows-path/
+(2) PyInstaller is installed from visual studio 2019 in C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\Lib\site-packages\
+(3) in solution folder, command window input python -m PyInstaller MyProgram.py, then it build the python code into exe file
+python -m PyInstaller --onefile MyProgram.py then build into just one exe file
